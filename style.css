@@ -1,0 +1,288 @@
+*{
+    padding: 0px
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+html, body {
+    background-color: white;
+    padding: 1px 100px 50px 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.gadus {
+    background-color: #F7F6F4;
+    padding: 15px 20px;
+    height: 35px;
+}
+
+.real{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-bottom: 0px;
+}
+
+.man{
+    display: flex;
+}
+
+.list {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.list a{
+    text-decoration: none;
+    color: #384A62;
+}
+
+.lists{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+.soul small {
+    color: #384A62;
+}
+
+.soul a{
+    color: rgba(12, 193, 253, 0.973);
+    text-decoration: none;
+}
+
+.headed {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.suck{
+    margin-bottom: 10px;
+    justify-content: center;
+    color: #384A62;
+}
+
+#headbutton{
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.header {
+    background-color: #ECE8D9;
+    padding: 10px 100px;
+    height: 480px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 1000;
+    border: none;
+}
+
+
+
+
+.smile {
+    display: flex;
+}
+
+.sad ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.sad a{
+    text-decoration: none;
+    color: #384A62;
+}
+
+#cosy {
+    color: #D78081;
+}
+
+.must {
+    padding: 70px 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 278px;
+}
+
+.quality {
+    color: #384A62;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 67.2px;
+}
+
+.shipped {
+    color: RGB(112, 128, 149);
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.label {
+    color: RGB(56, 74, 98);
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.inputsearch {
+    height: 80px;
+    width: 620px;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+#beau {
+    margin-top: 40px;
+    margin-left: 339px;
+    box-sizing: content-box;
+    max-width: 100%;
+}
+
+.container {
+padding: 60px 120px 30px 120px;
+}
+
+.items {
+    display: block;
+}
+
+.rear {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.see a {
+    color: #D78081;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.see a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.cardrow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 0px black;
+}
+
+.mighty a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: white;
+    height: 420px;
+    width: 300px;
+    justify-content: center;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 0.1px solid rgb(230, 229, 229);
+    flex-wrap: wrap;
+}
+
+.images:hover{
+transform: scale(1.08);
+box-sizing: border-box;
+transition: 0.5s;
+flex-wrap: wrap;
+}
+
+.images {
+    max-width: 100%;
+}
+
+.maniac {
+    max-width: 100%;
+}
+
+.maniac :hover{
+    transform: scaleX(1.8)
+}
+
+.ferry {
+    background-color: #D77F81;
+    color: white;
+    font-size: 16px;
+    border-radius: none;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+.mighty {
+    padding-left: 10px;
+}
+
+.mighty h3{
+    padding: 20px 0px 15px 0px;
+    font-size: 20px;
+    color: #384A76;
+}
+
+.mighty p {
+    color: #384A76;
+}
+
+#ouch {
+    font-size: 16px;
+}
+
+.heyo {
+    margin-right: 400px;
+    padding-left: 10px;
+}
+
+.heyo h3 {
+    padding: 20px 0px 15px 0px;
+    font-size: 20px;
+    color: #384A76;
+}
+
+.heyo p{
+    color: #384A76;
+}
+
+.heyo a {
+    text-decoration: none;
+}
+
+.cardrower {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 0px black;
+    margin-right: 640px;
+}
