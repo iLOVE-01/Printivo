@@ -67,8 +67,7 @@ html, body {
 }
 
 .suck{
-    margin-bottom: 10px;
-    justify-content: center;
+    text-decoration: none!important;
     color: #384A62;
 }
 
@@ -77,6 +76,10 @@ html, body {
     height: 40px;
     width: 100px;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
 .header {
@@ -101,6 +104,12 @@ html, body {
 
 .smile {
     display: flex;
+}
+
+.mifi {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
 }
 
 .sad ul{
